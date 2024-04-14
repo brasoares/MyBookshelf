@@ -14,4 +14,5 @@ These variables are associated with individual instances or objects of the class
 public Book (String title, String author, String genre, boolean isRead) {
     this.title = title;
     this.author = author;
+    this.genre = genre;
 }
