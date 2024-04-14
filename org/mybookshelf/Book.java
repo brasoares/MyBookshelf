@@ -12,5 +12,5 @@ These variables are associated with individual instances or objects of the class
 
 // Constructor with parameters
 public Book (String title, String author, String genre, boolean isRead) {
-
+    this.title = title;
 }
