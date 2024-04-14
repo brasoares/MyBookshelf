@@ -3,6 +3,7 @@ package org.mybookshelf;
 public class Book {
     private String title;
     private String author;
+    private String genre;
 }
 
 /* The term "instance variables" refers to variables that are declared within a class but outside of any method. 
