@@ -15,4 +15,5 @@ public Book (String title, String author, String genre, boolean isRead) {
     this.title = title;
     this.author = author;
     this.genre = genre;
+    this.isRead = isRead;
 }
