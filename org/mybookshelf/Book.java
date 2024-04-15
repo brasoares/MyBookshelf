@@ -55,3 +55,10 @@ public void setGenre (String genre) {
 }
 
 // Getters and Setters for isRead
+public boolean isRead() {
+    return isRead;
+}
+
+public void setRead(boolean isRead) {
+    this.isRead = isRead;
+}
