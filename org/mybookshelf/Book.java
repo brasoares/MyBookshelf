@@ -26,3 +26,13 @@ public Book() {
     this.genre = " ";
     this.isRead = false;
 }
+
+// Getters and Setters for title
+
+public String getTitle() {
+    return title;
+}
+
+public void setTitle (String title) {
+    this.title = title;
+}
