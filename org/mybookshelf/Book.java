@@ -37,4 +37,10 @@ public void setTitle (String title) {
 }
 
 // Getters and Setters for author
+public String getAuthor() {
+    return author;
+}
 
+public void setAuthor (String author) {
+    this.author = author;
+}
