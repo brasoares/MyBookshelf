@@ -28,7 +28,6 @@ public Book() {
 }
 
 // Getters and Setters for title
-
 public String getTitle() {
     return title;
 }
@@ -36,3 +35,6 @@ public String getTitle() {
 public void setTitle (String title) {
     this.title = title;
 }
+
+// Getters and Setters for author
+
