@@ -44,3 +44,14 @@ public String getAuthor() {
 public void setAuthor (String author) {
     this.author = author;
 }
+
+// Getters and Setters for genre
+public String getGenre() {
+    return genre;
+}
+
+public void setGenre (String genre) {
+    this.genre = genre;
+}
+
+// Getters and Setters for isRead
