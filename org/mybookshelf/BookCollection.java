@@ -8,3 +8,5 @@ public class BookCollection {
     private String ownerUserID;
     private long lastUpdatedTimestamp;
 }
+
+public BookCollection(String collectionName, String ownerUserID, int initialCapacity) 
