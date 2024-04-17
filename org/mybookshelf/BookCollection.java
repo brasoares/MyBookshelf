@@ -13,4 +13,7 @@ public BookCollection(String collectionName, String ownerUserID, int initialCapa
     this.collectionName = collectionName;
     this.ownerUserID = ownerUserID;
     this.books = new Book[initialCapacity];
+    this.numberOfBooks = 0;
+    this.tags = new String[0]; // Initialize this array with 0 elements
+    this.lastUpdatedTimestamp = System.currentTimeMillis(); // Initialize with current timestamp
 }
