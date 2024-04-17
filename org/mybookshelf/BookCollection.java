@@ -9,4 +9,8 @@ public class BookCollection {
     private long lastUpdatedTimestamp;
 }
 
-public BookCollection(String collectionName, String ownerUserID, int initialCapacity) 
+public BookCollection(String collectionName, String ownerUserID, int initialCapacity) {
+    this.collectionName = collectionName;
+    this.ownerUserID = ownerUserID;
+    this.books = new Book[initialCapacity];
+}
