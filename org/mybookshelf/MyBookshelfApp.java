@@ -1,4 +1,5 @@
-import org.mybookshelf.Book // import the Book class
+// import the Book class
+import org.mybookshelf.Book
 
 public class MyBookshelfApp {
     public static void main(String[] args) {
