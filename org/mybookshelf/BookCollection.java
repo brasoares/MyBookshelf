@@ -11,7 +11,7 @@ public class BookCollection {
   // Constructor with parameters
   public BookCollection(String collectionName, String ownerUserID, int initialCapacity) {
     if (initialCapacity < 0) {
-      
+      throw new IllegalArgumentException()
     }
     this.collectionName = collectionName;
     this.ownerUserID = ownerUserID;
