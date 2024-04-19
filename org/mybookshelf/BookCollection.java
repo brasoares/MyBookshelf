@@ -10,7 +10,9 @@ public class BookCollection {
 
   // Constructor with parameters
   public BookCollection(String collectionName, String ownerUserID, int initialCapacity) {
-    if (initialCapacity < 0) {}
+    if (initialCapacity < 0) {
+      
+    }
     this.collectionName = collectionName;
     this.ownerUserID = ownerUserID;
     this.books = new Book[initialCapacity];
