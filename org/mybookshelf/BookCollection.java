@@ -22,4 +22,6 @@ public class BookCollection {
   }
 
   // Getters and setters for private instance variables (to be added)
+
+  // Additional constructors and methods for managing the collection (to be added)
 }
