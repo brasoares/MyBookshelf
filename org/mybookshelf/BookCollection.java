@@ -20,4 +20,6 @@ public class BookCollection {
     this.tags = new String[0]; // Initialize this array with 0 elements
     this.lastUpdatedTimestamp = System.currentTimeMillis(); // Initialize with current timestamp
   }
+
+  // Getters and setters for private instance variables (to be added)
 }
