@@ -47,8 +47,12 @@ public class BookCollection {
   }
 
   // Setters follows
-  public void setBooks (Book[] books) {
+  public void setBooks(Book[] books) {
     this.books = books;
+  }
+
+  public void setNumberOfBooks(int numberOfBooks) {
+    this.numberOfBooks = numberOfBooks;
   }
 
   // Additional constructors and methods for managing the collection (to be added)
