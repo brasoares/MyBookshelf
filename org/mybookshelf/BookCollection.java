@@ -30,5 +30,9 @@ public class BookCollection {
     return numberOfBooks;
   }
 
+  public String getCollectionName() {
+    return collectionName;
+  }
+
   // Additional constructors and methods for managing the collection (to be added)
 }
