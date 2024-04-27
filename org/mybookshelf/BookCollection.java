@@ -26,5 +26,9 @@ public class BookCollection {
     return books;
   }
 
+  public int getNumberOfBooks() {
+    return numberOfBooks;
+  }
+
   // Additional constructors and methods for managing the collection (to be added)
 }
