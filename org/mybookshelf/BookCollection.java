@@ -67,5 +67,9 @@ public class BookCollection {
     this.ownerUserID = ownerUserID;
   }
 
+  public void setLasUpdatedTimestamp() {
+    this.lastUpdatedTimestamp = lastUpdatedTimestamp;
+  }
+
   // Additional constructors and methods for managing the collection (to be added)
 }
