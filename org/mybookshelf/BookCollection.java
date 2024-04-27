@@ -46,5 +46,10 @@ public class BookCollection {
     return lastUpdatedTimestamp;
   }
 
+  // Setters follows
+  public void setBooks (Book[] books) {
+    this.books = books;
+  }
+
   // Additional constructors and methods for managing the collection (to be added)
 }
