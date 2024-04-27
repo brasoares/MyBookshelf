@@ -38,5 +38,9 @@ public class BookCollection {
     return tags;
   }
 
+  public String getOwnerUserID() {
+    return ownerUserID;
+  }
+
   // Additional constructors and methods for managing the collection (to be added)
 }
