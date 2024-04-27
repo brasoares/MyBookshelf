@@ -21,7 +21,10 @@ public class BookCollection {
     this.lastUpdatedTimestamp = System.currentTimeMillis(); // Initialize with current timestamp
   }
 
-  // Getters and setters for private instance variables (to be added)
+  // Getters and setters for private instance variables (to be added; now added)
+  public Book[] getBooks() {
+    return books;
+  }
 
   // Additional constructors and methods for managing the collection (to be added)
 }
