@@ -42,5 +42,9 @@ public class BookCollection {
     return ownerUserID;
   }
 
+  public long getLastUpdatedTimestamp() {
+    return lastUpdatedTimestamp;
+  }
+
   // Additional constructors and methods for managing the collection (to be added)
 }
