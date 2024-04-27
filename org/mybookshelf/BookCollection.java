@@ -55,5 +55,9 @@ public class BookCollection {
     this.numberOfBooks = numberOfBooks;
   }
 
+  public void setCollectionName(String collectionName) {
+    this.collectionName = collectionName;
+  }
+
   // Additional constructors and methods for managing the collection (to be added)
 }
