@@ -34,5 +34,9 @@ public class BookCollection {
     return collectionName;
   }
 
+  public String getTags() {
+    return tags;
+  }
+
   // Additional constructors and methods for managing the collection (to be added)
 }
