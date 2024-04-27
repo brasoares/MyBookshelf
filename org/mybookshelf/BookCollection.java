@@ -59,5 +59,9 @@ public class BookCollection {
     this.collectionName = collectionName;
   }
 
+  public void setTags(String[] tags) {
+    this.tags = tags;
+  }
+
   // Additional constructors and methods for managing the collection (to be added)
 }
