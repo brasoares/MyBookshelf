@@ -63,5 +63,9 @@ public class BookCollection {
     this.tags = tags;
   }
 
+  public void setOwnerUserID(String ownerUserID) {
+    this.ownerUserID = ownerUserID;
+  }
+
   // Additional constructors and methods for managing the collection (to be added)
 }
