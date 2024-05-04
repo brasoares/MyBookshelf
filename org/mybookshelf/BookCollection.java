@@ -1,5 +1,7 @@
 package org.mybookshelf;
 
+import java.util.Arrays;
+
 public class BookCollection {
     private Book[] books;
     private int numberOfBooks;
